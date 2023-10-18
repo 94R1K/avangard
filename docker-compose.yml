@@ -3,7 +3,8 @@ services:
 
   db:
     image: postgres:latest
-    # Это небезопасно, но сделано для быстрого запуска
+
+    # Это небезопасно, но сделано намерено для вашего удобства
     environment:
       - POSTGRES_DB=flask_db
       - POSTGRES_USER=flask_user

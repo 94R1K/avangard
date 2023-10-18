@@ -7,6 +7,12 @@ git clone git@github.com:94R1K/avangard.git
 cd avangard
 ```
 
+2. Создайте файл .env:
+```bash
+touch .env
+```
+3. Опишите файл **.env** по примеру файла **.env.example**:
+
 2. Выполните команду запуска docker-compose.yml:
 ```bash
 docker-compose up -d
